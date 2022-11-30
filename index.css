@@ -8,10 +8,10 @@
 }
 body {
   background-image: url("https://media.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif");
-  background-position: center;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: 69%;
   background-attachment: fixed;
 }
 .container {
@@ -141,6 +141,9 @@ input[type="text"] :hover {
     border: none;
     box-shadow: none;
     margin: 0 auto;
+  }
+  body {
+    width: auto;
   }
 
   .top-content {
