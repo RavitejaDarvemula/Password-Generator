@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://images.unsplash.com/photo-1634224143538-ce0221abf732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top-content">
+        <h1 class="title">Generate a <br /><span>random Password</span></h1>
+        <h2 class="des">Never use an insecure password again</h2>
+        <button class="btn" onclick="getGeneratePasswords()">
+          Generate passwords
+        </button>
+      </div>
+      <hr style="opacity: 0.3" />
+      <div class="below-content">
+        <div class="generatedPassword" id="password1-el"></div>
+        <div class="generatedPassword" id="password2-el"></div>
+        <div class="generatedPassword" id="password3-el"></div>
+        <div class="generatedPassword" id="password4-el"></div>
+        <div id="letter-main"></div>
+      </div>
+      <p class="dis">click to copy</p>
+    </div>
+    <div class="copyright">
+      <p><i>MadeBy @ravitejadarvemula.</i></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
