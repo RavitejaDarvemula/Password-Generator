@@ -124,8 +124,8 @@ input[type="text"] :hover {
 .copyright {
   margin-top: 140px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.267);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  /* background: rgba(255, 255, 255, 0.267); */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 1); */
 }
 @media (max-width: 478px) {
   /* .container {
@@ -140,7 +140,9 @@ input[type="text"] :hover {
     padding: 4em;
     border: none;
     box-shadow: none;
+    margin: 0 auto;
   }
+
   .top-content {
     text-align: left;
     margin-left: -20px;
